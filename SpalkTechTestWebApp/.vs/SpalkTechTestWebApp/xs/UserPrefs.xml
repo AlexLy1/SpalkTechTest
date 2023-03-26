@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{C9C34DBF-F53E-4917-8523-052DBC591B8D}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SpalkTechTestWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpalkTechTestWebApp/ApplicationServices/Classes/StreamFileValidator.cs">
+    <Files>
+      <File FileName="SpalkTechTestWebApp/ApplicationServices/Classes/StreamFileValidator.cs" Line="45" Column="23" />
+      <File FileName="SpalkTechTestWebAppTests/ApplicationServiceTests/Classes/StreamFileValidatorTests/ValidateUploadedStreamTests.cs" Line="57" Column="1" />
+      <File FileName="SpalkTechTestWebApp/Models/ValidationResponse.cs" Line="1" Column="1" />
+      <File FileName="SpalkTechTestWebApp/Controllers/HomeController.cs" Line="26" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SpalkTechTestWebApp" expanded="True">
+            <Node name="SpalkTechTestWebApp" expanded="True">
+              <Node name="ApplicationServices" expanded="True">
+                <Node name="Classes" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SpalkTechTestWebAppTests" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ApplicationServiceTests" expanded="True">
+                <Node name="Classes" expanded="True">
+                  <Node name="StreamFileValidatorTests" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SpalkTechTestWebApp" expanded="True">
+            <Node name="SpalkTechTestWebAppTests" expanded="True">
+              <Node name="SpalkTechTestWebAppTests.ApplicationServiceTests.Classes.StreamFileValidatorTests" expanded="True" selected="True">
+                <Node name="ValidateUploadedStreamTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

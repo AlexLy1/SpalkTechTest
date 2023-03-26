@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebAppTests/SpalkTechTestWebAppTests.csproj": {}
+  },
+  "projects": {
+    "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/SpalkTechTestWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/SpalkTechTestWebApp.csproj",
+        "projectName": "SpalkTechTestWebApp",
+        "projectPath": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/SpalkTechTestWebApp.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebAppTests/SpalkTechTestWebAppTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebAppTests/SpalkTechTestWebAppTests.csproj",
+        "projectName": "SpalkTechTestWebAppTests",
+        "projectPath": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebAppTests/SpalkTechTestWebAppTests.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebAppTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/SpalkTechTestWebApp.csproj": {
+                "projectPath": "/Users/alex/Projects/SpalkTechTestWebApp/SpalkTechTestWebApp/SpalkTechTestWebApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

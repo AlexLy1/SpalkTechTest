@@ -1,0 +1,5 @@
+/Users/alex/Documents/Projects/SpalkTechTestWebApp
+/Users/alex/Documents/Projects/SpalkTechTestWebApp.dll
+/Users/alex/Documents/Projects/SpalkTechTestWebApp.deps.json
+/Users/alex/Documents/Projects/SpalkTechTestWebApp.runtimeconfig.json
+/Users/alex/Documents/Projects/SpalkTechTestWebApp.pdb

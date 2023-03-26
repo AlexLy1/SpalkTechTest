@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ApplicationServiceTests\" />
+    <None Remove="ApplicationServiceTests\Classes\" />
+    <None Remove="ApplicationServiceTests\Classes\StreamFileValidatorTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApplicationServiceTests\" />
+    <Folder Include="ApplicationServiceTests\Classes\" />
+    <Folder Include="ApplicationServiceTests\Classes\StreamFileValidatorTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpalkTechTestWebApp\SpalkTechTestWebApp.csproj" />
+  </ItemGroup>
+</Project>
